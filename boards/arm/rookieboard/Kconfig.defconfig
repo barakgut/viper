@@ -1,0 +1,11 @@
+# RookieBoard development board with STM32L071C8 MCU configuration
+
+# Copyright (c) 2020 Barak Gutman <barak381@gmail.com>
+# SPDX-License-Identifier: Apache-2.0
+
+if BOARD_ROOKIEBOARD
+
+config BOARD
+	default "rookieboard"
+
+endif # BOARD_ROOKIEBOARD
